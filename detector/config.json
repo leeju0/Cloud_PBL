@@ -1,0 +1,21 @@
+{
+  "namespace": "pbl-security",
+  "service_account": "system:serviceaccount:pbl-security:pbl-crypto-platform-app",
+  "allowed_resources": ["pods", "services", "configmaps"],
+  "allowed_verbs": ["get", "list"],
+  "sensitive_resources": ["secrets"],
+  "window_seconds": 300,
+  "burst_request_threshold": 8,
+  "burst_resource_threshold": 3,
+  "attack_threshold": 60,
+  "suspicious_threshold": 30,
+  "weights": {
+    "sensitive_secret_access": 60,
+    "pod_exec_attempt": 60,
+    "forbidden_sensitive_request": 25,
+    "enumeration_burst": 30,
+    "identity_anomaly": 25
+  },
+  "baseline_source_ips": ["172.18.0.1"],
+  "baseline_user_agent_prefixes": ["kubectl/"]
+}

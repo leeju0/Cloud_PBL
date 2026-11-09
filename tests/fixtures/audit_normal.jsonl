@@ -1,0 +1,1 @@
+{"requestReceivedTimestamp":"2026-10-20T01:00:00Z","user":{"username":"system:serviceaccount:pbl-security:pbl-crypto-platform-app"},"sourceIPs":["172.18.0.1"],"userAgent":"kubectl/v1.35.2","verb":"list","objectRef":{"resource":"pods","namespace":"pbl-security"},"responseStatus":{"code":200},"auditID":"normal-1"}

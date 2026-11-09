@@ -1,0 +1,40 @@
+{
+  "total": 1,
+  "tp": 0,
+  "tn": 0,
+  "fp": 0,
+  "fn": 1,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "window_metrics": {
+    "total": 1,
+    "tp": 0,
+    "tn": 0,
+    "fp": 0,
+    "fn": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "event_metrics": {
+    "total": 3,
+    "tp": 0,
+    "tn": 0,
+    "fp": 0,
+    "fn": 3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "scenario": {
+    "expected": "attack",
+    "detected": false,
+    "rule_only_classification": "normal",
+    "llm_enriched_classification": "normal"
+  },
+  "llm_consistency": {
+    "runs": 0,
+    "consistent": true
+  }
+}
